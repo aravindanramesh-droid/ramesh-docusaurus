@@ -7,9 +7,9 @@ dotenvconfig();
 
 /* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
-const gitRepositoryUrl = Boolean(process.env.GIT_REPOSITORY_URL === 'true')
+
 const config: Config = {
-  title: 'Ramesh - DSO Live Demo Docs',
+  title: 'DSO Live Demo Docs',
   tagline: 'Maxime Musterperson - DevSecOps Enthusiast with a passion for details and efficiency',
   favicon: 'img/favicon.ico',
 
@@ -23,8 +23,9 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: process.env.GITHUB_ORG, // Usually your GitHub org/user name.
   projectName: process.env.GITHUB_PROJECT, // Usually your repo name.
-  
+
   deploymentBranch: process.env.DEPLOYMENT_BRANCH,
+
   onBrokenLinks: 'throw',
   markdown: {
     hooks: {
@@ -43,13 +44,13 @@ const config: Config = {
   presets: [
     [
       'classic',
-      { 
+      {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/aravindanramesh-droid/ramesh-docusaurus',
+            'https://github.com/spmse/dev-blog-template',
         },
         blog: blogEnabled ? 
           {
@@ -61,8 +62,7 @@ const config: Config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              process.env.GIT_REPOSITORY_URL,
-            //  'https://github.com/aravindanramesh-droid/ramesh-docusaurus',
+              'https://github.com/aravindanramesh-droid/ramesh-docusaurus',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -107,29 +107,38 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: 'docs/guides/intro',
-            },
-            {
-              label: 'Overview',
-              to: '/docs/projects/overview',
+              to: '/docs/guides/intro',
             },
           ],
-        },        
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
+            },
+          ],
+        },
         {
           title: 'More',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/aravindanramesh-droid/ramesh-docusaurus',
-            },
-                        {
-              label: 'Template',
-              href: 'https://github.com/spmse/dev-blog-template',
+              href: 'https://github.com/facebook/docusaurus',
             }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ramesh Aravindan Nair (aravindanramesh-droid). Built with Docusaurus and 💚extended from the developer-akademie-starter.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sven Patrick Meier (spmse). Built with Docusaurus and 💚.`,
     },
     prism: {
       theme: prismThemes.github,
