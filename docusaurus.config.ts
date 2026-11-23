@@ -80,9 +80,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'My Site - Ramesh',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'My Site Logo -Ramesh',
         src: 'img/logo.svg',
       },
       items: [
