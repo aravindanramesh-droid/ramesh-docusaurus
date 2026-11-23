@@ -10,7 +10,7 @@ const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 
 const config: Config = {
   title: 'DSO Live Demo Docs',
-  tagline: 'Maxime Musterperson - DevSecOps Enthusiast with a passion for details and efficiency',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,7 +62,7 @@ const config: Config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              'https://github.com/aravindanramesh-droid/ramesh-docusaurus',
+              'https://github.com/spmse/dev-blog-template',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -80,9 +80,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site - Ramesh',
+      title: 'My Site',
       logo: {
-        alt: 'My Site Logo -Ramesh',
+        alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
