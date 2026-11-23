@@ -9,7 +9,7 @@ dotenvconfig();
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 const gitRepositoryUrl = Boolean(process.env.GIT_REPOSITORY_URL === 'true')
 const config: Config = {
-  title: 'Ramesh - DSO Live Demo Docs',
+  title: 'Ramesh - DSO Live Demo Doc',
   tagline: 'Maxime Musterperson - DevSecOps Enthusiast with a passion for details and efficiency',
   favicon: 'img/favicon.ico',
 
