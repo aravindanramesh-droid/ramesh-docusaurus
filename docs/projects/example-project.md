@@ -1,7 +1,7 @@
 # Docusaurs setup
 
 <!--INSERT YOUR BRIEF DESCRIPTION HERE -->
-Mz first project with Developer Akademie
+My first project with Developer Akademie
 ## TOC
 
 <!--INSERT YOUR TABLE OF CONTENTS HERE -->
