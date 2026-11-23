@@ -50,12 +50,14 @@ This repository hosts a developer blog built with Docusaurus. It includes tools 
 
 4. Deployment
 
+   Added changes to the docusaurus.config.ts file 
+
    In order to deploy onto Github Pages, ensure that your `docusaurus.config.ts` conforms with the [documentation guidelines](https://docusaurus.io/docs/deployment#deploying-to-github-pages). After that is ensured run the following command to deploy:
 
    ```
    $ USE_SSH=true npm run deploy
    ```
-
+   
 For detailed information about deploying this Docusaurus project, refer to the [Deployment](#deployment) section below.
 
 ## Repository Structure
@@ -97,8 +99,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 To deploy the site using NGINX and Docker, follow this [guide](./docs/guides/deploy-docusaurus-with-docker-and-nginx.md)
 
-### Contributing
 
-Currently, this project does not seek collaborators, but we're open to suggestions regarding enhancements or guides to prepare.
-Open an issue with a detailed description on the change you suggest and elaborate why it's benefitial for the project and vast majority.
-If accepted in the discussion, open a pull request from your fork of this repository to contribute your changes.
