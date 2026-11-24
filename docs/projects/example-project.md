@@ -1,8 +1,7 @@
-# Project-Title
+# Docusaurs setup
 
 <!--INSERT YOUR BRIEF DESCRIPTION HERE -->
-A simple and brief description and intro to the project.
-
+My first project with Developer Akademie
 ## TOC
 
 <!--INSERT YOUR TABLE OF CONTENTS HERE -->
@@ -10,8 +9,8 @@ A simple and brief description and intro to the project.
 import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';
 
 <GithubLinkAdmonition 
-    link="https://github.com/spmse/dev-blog-template"
-    title="Github Tip" 
+    link="https://github.com/aravindanramesh-droid/ramesh-docusaurus"
+    title="Github Tip - spmse dev-blog-template to Ramesh" 
     type="tip"
 >
 Checkout this repository to see the code/implementation
@@ -19,9 +18,11 @@ Checkout this repository to see the code/implementation
 
 ## Quickstart
 
-1. do X
-2. do Y
+1. Docusaurus Setup
+2. VSS Setup
 
 ## Description
+
+
 
 ## Further References
